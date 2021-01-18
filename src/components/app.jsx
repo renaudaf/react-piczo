@@ -1,8 +1,13 @@
 import React from "react";
 
+import Header from "./header";
+
 function App() {
   return (
-    <h1>This is my react boilerplate</h1>
+    <div className="container">
+      <Header />
+      <h1>Home Page</h1>
+    </div>
   );
 }
 
